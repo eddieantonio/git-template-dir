@@ -1,5 +1,5 @@
-git template directory
-======================
+git template dir
+================
 
 This is a [template directory][template] for new (and existing) git
 repositories.
@@ -15,11 +15,11 @@ Install
 
 Clone this... somewhere. Some places include `~/.git_template`:
 
-    git clone https://github.com/eddieantonio/git-template-directory.git ~/.git_template
+    git clone https://github.com/eddieantonio/git-template-dir.git ~/.git_template
 
 Then configure it as your template directory:
 
-    git config --global init.templatedir '~/.git_template/template`
+    git config --global init.templatedir '~/.git_template/template'
 
 
 [template]: https://git-scm.com/docs/git-init/2.2.3#_template_directory
