@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Generate ctags in the background
+.git/hooks/generate-ctags >/dev/null 2>&1 &

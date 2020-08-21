@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -eu
+
+# Make sure we use ***exubertant** ctags; Homebrew installs it here:
+PATH="/usr/local/bin:$PATH"
+
+trap 'rm -f "$$.tags"' EXIT
+# Tag files listed in the index
+git ls-files | \
+    ctags --tag-relative -L - -f"$$.tags"
+mv "$$.tags" tags
