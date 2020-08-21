@@ -9,6 +9,7 @@ Features
 
  - default branch is named `main`
  - build ctags after commits, merges, and checkouts ([thanks @tpope][ctags])
+ - default exclude patterns (`.gitignore`) for development on macOS
 
 Install
 -------
